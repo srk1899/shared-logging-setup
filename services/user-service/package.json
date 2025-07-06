@@ -1,0 +1,8 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "logger-lib": "file:../../libs/logger-lib"
+  }
+}

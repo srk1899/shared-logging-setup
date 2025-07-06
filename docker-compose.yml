@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  user-service:
+    build: ./services/user-service
+    ports:
+      - "5005:5005"
+
+  order-service:
+    build: ./services/order-service
+    ports:
+      - "5004:5004"
